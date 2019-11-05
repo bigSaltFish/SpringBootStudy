@@ -10,9 +10,9 @@
     </parent>
 
     <groupId>com.frank</groupId>
-    <artifactId>shiro_example</artifactId>
+    <artifactId>aop_log</artifactId>
+    <name>aop_log</name>
     <version>0.0.1-SNAPSHOT</version>
-    <name>shiro_example</name>
     <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
 
@@ -77,6 +77,26 @@
         <dependency>
             <groupId>net.sf.ehcache</groupId>
             <artifactId>ehcache</artifactId>
+        </dependency>
+
+        <!-- aop依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+        <!--糊涂工具类-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.0.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>16.0.2</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
