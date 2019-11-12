@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/aop_log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my_test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shiro_example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBoot_test" charset="UTF-8" />
   </component>
 </project>

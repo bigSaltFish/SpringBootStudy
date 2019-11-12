@@ -8,21 +8,26 @@
         <outputRelativeToContentRoot value="true" />
         <module name="apo_log" />
         <module name="shiro_example" />
+        <module name="springBoot_test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="apo_log" target="1.8" />
+      <module name="demo" target="1.7" />
       <module name="my-shiro" target="1.8" />
       <module name="my_shiro" target="1.8" />
       <module name="shiro_example" target="1.8" />
+      <module name="springBoot_test" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="apo_log" options="-parameters" />
+      <module name="demo" options="" />
       <module name="my-shiro" options="-parameters" />
       <module name="my_shiro" options="-parameters" />
       <module name="shiro_example" options="-parameters" />
+      <module name="springBoot_test" options="" />
     </option>
   </component>
 </project>

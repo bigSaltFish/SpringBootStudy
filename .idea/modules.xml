@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBootStudy.iml" filepath="$PROJECT_DIR$/.idea/SpringBootStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/aop_log/apo_log.iml" filepath="$PROJECT_DIR$/aop_log/apo_log.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro_example/shiro_example.iml" filepath="$PROJECT_DIR$/shiro_example/shiro_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBoot_test/springBoot_test.iml" filepath="$PROJECT_DIR$/springBoot_test/springBoot_test.iml" />
     </modules>
   </component>
 </project>
