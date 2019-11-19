@@ -11,6 +11,9 @@
         <option value="$PROJECT_DIR$/aop_log/pom.xml" />
         <option value="$PROJECT_DIR$/my_test/pom.xml" />
         <option value="$PROJECT_DIR$/springBoot_test/pom.xml" />
+        <option value="$PROJECT_DIR$/my_eureka/eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/my_eureka/eureka_client/pom.xml" />
+        <option value="$PROJECT_DIR$/my_eureka/eureka_consumer/pom.xml" />
       </list>
     </option>
   </component>

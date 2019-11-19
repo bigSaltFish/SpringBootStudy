@@ -6,14 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="aop_log" />
         <module name="apo_log" />
+        <module name="eureka_client" />
+        <module name="eureka_consumer" />
+        <module name="eureka_server" />
         <module name="shiro_example" />
         <module name="springBoot_test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aop_log" target="1.8" />
       <module name="apo_log" target="1.8" />
       <module name="demo" target="1.7" />
+      <module name="eureka_client" target="1.8" />
+      <module name="eureka_consumer" target="1.8" />
+      <module name="eureka_server" target="1.8" />
       <module name="my-shiro" target="1.8" />
       <module name="my_shiro" target="1.8" />
       <module name="shiro_example" target="1.8" />
@@ -22,8 +30,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aop_log" options="-parameters" />
       <module name="apo_log" options="-parameters" />
       <module name="demo" options="" />
+      <module name="eureka_client" options="" />
+      <module name="eureka_consumer" options="" />
+      <module name="eureka_server" options="" />
       <module name="my-shiro" options="-parameters" />
       <module name="my_shiro" options="-parameters" />
       <module name="shiro_example" options="-parameters" />

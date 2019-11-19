@@ -1,0 +1,13 @@
+若要实现集群效果，可以在target目录下，执行下列命令，启动多个server
+  java -jar eureka_server-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer1
+  java -jar eureka_server-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer2
+
+若要实现集群效果，可以在target目录下，执行下列命令，启动多个provider
+    java -jar eureka_client-0.0.1-SNAPSHOT.jar --server.port=8071
+    java -jar eureka_client-0.0.1-SNAPSHOT.jar --server.port=8072
+
+
+注意事项：
+  1.Spring Boot和Spring cloud版本需要匹配
+    boot的1.5.9.RELEASE 对应 cloud的 Edgware.SR3
+  2.注意看日志，应用名、端口等都会在启动日志输出
